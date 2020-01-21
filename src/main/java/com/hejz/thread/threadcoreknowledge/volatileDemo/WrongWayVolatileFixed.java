@@ -35,11 +35,10 @@ public class WrongWayVolatileFixed {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("消费不需要更多数据了。");
-            //不需要应该停下来了
-//            producer.canceled = true;
-            producerThread.isInterrupted();
         }
+        System.out.println("消费不需要更多数据了。");
+        producerThread.interrupt();
+
     }
 
 

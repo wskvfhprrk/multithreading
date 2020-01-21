@@ -30,15 +30,15 @@ public class WrongWayVolatileCantStop {
                 e.printStackTrace();
             }
             try {
-                Thread.sleep(1000);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("消费不需要更多数据了。");
-            //不需要应该停下来了
-            producer.canceled = true;
         }
-        System.out.println("canceled:"+producer.canceled);
+        System.out.println("消费不需要更多数据了。");
+        //不需要应该停下来了
+        producer.canceled = true;
+        System.out.println("canceled:" + producer.canceled);
     }
 
 }
