@@ -139,6 +139,8 @@ java.lang.InterruptedException: sleep interrupted
 
 ### 4线程的一生（6个状态）
 
+new\runnable(可运行的)\blocked\waiting\timed waiting\Terminated
+
 ### 5thread和object类的重要方法详解
 
 ### 6线程的各个属性（四种）

@@ -1,4 +1,4 @@
-package com.hejz.thread.threadcoreknowledge.volatileDemo;
+package com.hejz.thread.threadcoreknowledge.stopthreads.volatileDemo;
 
 /**
  * @author: hejz

@@ -1,4 +1,4 @@
-package com.hejz.thread.threadcoreknowledge.volatileDemo;
+package com.hejz.thread.threadcoreknowledge.stopthreads.volatileDemo;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
