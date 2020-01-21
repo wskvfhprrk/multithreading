@@ -1,4 +1,4 @@
-package com.hejz.thread.threadcoreknowledge.createthreads.wrongways;
+package com.hejz.thread.threadcoreknowledge.wrongways;
 
 import javafx.concurrent.Task;
 

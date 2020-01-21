@@ -1,4 +1,4 @@
-package com.hejz.thread.threadcoreknowledge.createthreads.wrongways;
+package com.hejz.thread.threadcoreknowledge.wrongways;
 
 import java.util.Timer;
 import java.util.TimerTask;
